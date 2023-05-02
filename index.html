@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-NvB8feJWl0+gJJaA6sqQHnfUJMb6gDgbKZoyfJvOSG9+1IgJ24JSk5by3yvB/oklt/8+R1hJdFYllZv1+XJW8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <script src="https://kit.fontawesome.com/4928bfeba7.js" crossorigin="anonymous"></script>
+
+    <title>Mauricio Pomazan</title>
+</head>
+
+<body class="body">
+    <header >
+        <nav class="navbar navbar-light" style="background-color: blue">
+            <div class="header-container">
+                <h1 class="h1-header"><strong>Desarrollador Full Stack</strong></h1>
+                <div class="d-flex"></div>
+            </div>
+            <nav>
+                <ul class="menu">
+                  <li><a href="#inicio">Inicio</a></li>
+                  <li><a href="#acerca-de">Acerca de</a></li>
+                  <li><a href="#habilidades">Habilidades</a></li>
+                  <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </nav> 
+    </header>
+    <section >
+        <div>
+            <div class="contenedor-principal" id="inicio">
+                <div class="imagen"></div>
+                <div class="texto">
+                    <div class="nombre" id="acerca-de">Pomazan Mauricio Damian</div>
+                </div>
+            </div>
+        <div class="acerca-de" id="habilidades" >
+            <h1><strong>Quien Soy:</strong></h1>
+            <p>Soy un <strong>estudiante apasionado de programación</strong>, actualmente cursando la tecnicatura en programación de la UTN. Tengo experiencia trabajando en proyectos de aplicaciones de escritorio y páginas web utilizando diversas tecnologías, como <em>Java, JavaScript y SQL Server</em>. He trabajado en proyectos tanto en grupo como individualmente, lo que me ha permitido desarrollar habilidades colaborativas y la capacidad de resolver problemas de manera autónoma. Me encanta enfrentar desafíos y estoy siempre dispuesto a aprender y a trabajar con nuevas tecnologías. Estoy particularmente interesado en el <strong>desarrollo web y la inteligencia artificial</strong>, y busco oportunidades para seguir adquiriendo experiencia en estas áreas.</p>
+        </div>
+        </div>
+        <br/><br/>
+    </section>
+    <main>
+    <section >
+        <h1 class="h1-titulos"><strong>Habilidades</strong></h1>
+        <div class="accordion accordion-flush box shadow" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-center" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        <h4>Herramientas de desarrolo WEB / Framework</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse ul"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>Jquery</li>
+                            <li>Booststrap</li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <section>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <h4>Sistema Gestor de Base de datos</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse ul"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Microsoft SQL Server</li>
+                            <li>MySQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header ul">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        <h4>Lenguajes de Programacion</h4>
+                    </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse ul"
+                    data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li><img src="imagenes/java_original.ico" alt=""> Java</li>
+                            <li>C#</li>
+                            <li>TypeScript</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+    </section>
+</main>
+    <br /><br />
+    <section>
+        <h1 class="h1-titulos"><strong>"Galería de Certificaciones"</strong></h1>
+        <div class="container-carousel">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="5000">
+                        <div class="carousel-imagen">
+                            <img src="imagenes/Certificados-programacion.jpg" class="d-block mx-auto w-50"
+                            alt="Certificados-programacion-2020" />
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="5000">
+                        <div class="carousel-imagen">
+                            <img src="imagenes/Certificado_de_participacin_en_el_curso.jpg" class="d-block mx-auto w-50"
+                            alt="Certificado_de_participacin_en_el_curso_2023" />
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                       <div class="carousel-imagen">
+                        <img src="imagenes/Certificado_de_finalizacin_curso.jpg" class="d-block mx-auto w-50"
+                            alt="Certificado_de_finalizacin_curso-2023" />
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev carousel-button" type="button"
+                    data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next carousel-button" type="button"
+                    data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section><br><br>
+        <footer  class="text-center">
+            <div class="container" id="contacto">
+              <div class="row justify-content-center">
+                <div class="col-md-4" >
+                  <h3>Contactos:</h3>
+                  <ul>
+                    <li><i class="bi bi-telephone-inbound-fill"></i>Telfono : 351-3755810</li>
+                    <li><i class="bi bi-envelope"></i> Email: m.pomazan19@gmail.com</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h3>Enlaces útiles</h3>
+                  <ul>
+                    <li><a href="https://www.linkedin.com/in/mauricio-damian-pomazan-8991721ab/">Linkedin <i class="bi bi-linkedin"></i></a></li>
+                    <li><a href="https://github.com/MauricioPomazan">Github <i class="bi bi-github"></i>
+                  </ul>
+                </div>
+                 <!-- <div class="col-md-4">
+                <h3>Síguenos</h3>
+                  <ul class="social-icons">
+                    <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>-->
+          </footer>
+          
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+            integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+            integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://kit.fontawesome.com/4928bfeba7.js" crossorigin="anonymous"></script>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
